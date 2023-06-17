@@ -116,7 +116,6 @@ This is called the *substitution model*, the meaning of procedure application. <
 - The substitution model doesn't describe how interpreters work.
 - The purpose of the substitution model is to help us think about procedure application.
 
-
 ### Applicative Order vs Normal Order
 
 - *applicative-order evaluation* (the first evaluation method) - “evaluate the arguments and then apply”
@@ -194,3 +193,9 @@ The value of a not expression is true when the expression ⟨e⟩ evaluates to f
 
 'and' and 'or' are special forms, not procedures, as the subexpressions aren't always evaluated. <br>
 'not' is an ordinary procedure.
+
+## 1.1.7 Square Roots by Newton's Method
+
+The difference between a function and a procedure is the distinction between describing properties of something, and describing how to do something (distinction between declarative knowledge and imperative knowledge). <br>
+
+Maths is more concerned with declarative knowledge, computer science is more concerned with imperative knowledge.
